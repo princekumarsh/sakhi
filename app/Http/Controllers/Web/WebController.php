@@ -1180,4 +1180,7 @@ class WebController extends Controller
     public function details(){
         return view('web-views2.details');
     }
+    public function checkout(){
+        return view('web-views2.checkout');
+    }
 }

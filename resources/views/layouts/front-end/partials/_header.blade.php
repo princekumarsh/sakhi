@@ -730,7 +730,7 @@
     
                       <a href="/collections/western-wear"
                         class="site-nav__link site-nav__link--underline site-nav__link--has-dropdown">
-                        Western Wear
+                        Night Wear
                       </a>
                       <div class="site-nav__dropdown megamenu text-left">
                         <div class="page-width">
@@ -739,53 +739,66 @@
                             <div class="grid__item medium-up--one-fifth appear-animation appear-delay-2">
                               <div class="h5">
                                 <a href="/collections/tops-tunics"
-                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Tops & Tunics</a>
-                              </div>
-                              <ul>
-                            </div>
-                            <div class="grid__item medium-up--one-fifth appear-animation appear-delay-3">
-                              <div class="h5">
-                                <a href="/collections/dresses"
-                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Dresses</a>
+                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Women</a>
                               </div>
                               <ul>
                                 <li>
                                   <a href="/collections/dresses-mini" class="site-nav__dropdown-link">
-                                    Dresses Mini
+                                    Women Nightwear
                                   </a>
                                 </li>
+                              </ul>
+                            </div>
+                            <div class="grid__item medium-up--one-fifth appear-animation appear-delay-3">
+                              <div class="h5">
+                                <a href="/collections/dresses"
+                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Kids</a>
+                              </div>
+                              <ul>
                                 <li>
-                                  <a href="/collections/dresses-midi" class="site-nav__dropdown-link">
-                                    Dresses Midi
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="/collections/dresses-maxi" class="site-nav__dropdown-link">
-                                    Dresses Maxi
+                                  <a href="/collections/dresses-mini" class="site-nav__dropdown-link">
+                                    Kids Nightwear
                                   </a>
                                 </li>
                             </div>
                             <div class="grid__item medium-up--one-fifth appear-animation appear-delay-4">
                               <div class="h5">
                                 <a href="/collections/dungaree-jumpsuits"
-                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Jumpsuits &
-                                  Playsuits</a>
+                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Mens</a>
                               </div>
                               <ul>
+                                <li>
+                                  <a href="/collections/dresses-mini" class="site-nav__dropdown-link">
+                                    Mens Nightwear
+                                  </a>
+                                </li>
+                              </ul>
                             </div>
                             <div class="grid__item medium-up--one-fifth appear-animation appear-delay-5">
                               <div class="h5">
                                 <a href="/collections/co-ord-sets"
-                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Co-ord Sets</a>
+                                  class="site-nav__dropdown-link site-nav__dropdown-link--top-level">T- shirt</a>
                               </div>
                               <ul>
+                                <li>
+                                  <a href="/collections/dresses-mini" class="site-nav__dropdown-link">
+                                    Nightwear T-shirts
+                                  </a>
+                                </li>
+                              </ul>
                             </div>
                             <div class="grid__item medium-up--one-fifth appear-animation appear-delay-6">
                               <div class="h5">
                                 <a href="/collections/pants"
                                   class="site-nav__dropdown-link site-nav__dropdown-link--top-level">Pants</a>
                               </div>
-                              <ul></ul>
+                              <ul>
+                                <li>
+                                  <a href="/collections/dresses-mini" class="site-nav__dropdown-link">
+                                    Nightware pants
+                                  </a>
+                                </li>
+                              </ul>
                             </div>
                           </div>
                         </div>
@@ -799,27 +812,27 @@
                     </li>
                     <li class="site-nav__item site-nav__expanded-item">
     
-                      <a href="/collections/luxe" class="site-nav__link site-nav__link--underline">
+                      {{-- <a href="/collections/luxe" class="site-nav__link site-nav__link--underline">
                         Luxe
-                      </a>
+                      </a> --}}
                     </li>
                     <li class="site-nav__item site-nav__expanded-item">
     
-                      <a href="/collections/maternity-wear" class="site-nav__link site-nav__link--underline">
+                      {{-- <a href="/collections/maternity-wear" class="site-nav__link site-nav__link--underline">
                         Maternity Wear
-                      </a>
+                      </a> --}}
                     </li>
                     <li class="site-nav__item site-nav__expanded-item">
     
-                      <a href="/collections/low-stock-sale" class="site-nav__link site-nav__link--underline">
+                      {{-- <a href="/collections/low-stock-sale" class="site-nav__link site-nav__link--underline">
                         Sale
-                      </a>
+                      </a> --}}
                     </li>
                     <li class="site-nav__item site-nav__expanded-item">
     
-                      <a href="/pages/sell-our-products" class="site-nav__link site-nav__link--underline">
+                      {{-- <a href="/pages/sell-our-products" class="site-nav__link site-nav__link--underline">
                         Sell our products
-                      </a>
+                      </a> --}}
                     </li>
                   </ul>
                 </div>

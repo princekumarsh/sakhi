@@ -392,10 +392,10 @@
 
 
 
-  <script src="https://cdn.beae.com/vendors/js-v2/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="{{asset('public/assets/front-end/newjs/jquery.min.js')}}" crossorigin="anonymous" referrerpolicy="no-referrer">
   </script>
 
-  <script src="https://cdn.ecomposer.app/vendors/js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="{{asset('public/assets/front-end/newjs/jquery1.min.js')}}" crossorigin="anonymous" referrerpolicy="no-referrer">
   </script>
   <meta name="facebook-domain-verification" content="4vkzi7rxmd3wy3jkmwulv32u2prlfw" />
 
@@ -491,7 +491,7 @@
     }
   </style>
 
-  <link href="//jisora.com/cdn/shop/t/29/assets/theme.css?v=45122268607735783641679976358" rel="stylesheet"
+  <link href="{{asset('public/assets/front-end/newcss/theme.css')}}" rel="stylesheet"
     type="text/css" media="all" />
   <style data-shopify>
     :root {
@@ -871,14 +871,14 @@
   </script>
   <script integrity="sha256-h4dvokWvGcvRSqiG7VnGqoonxF0k3NeoHPLSMjUGIz4=" data-source-attribution="shopify.loadfeatures"
     defer="defer"
-    src="//jisora.com/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"
+    src="{{asset('public/assets/front-end/newjs/load_feature.js')}}"
     crossorigin="anonymous"></script>
   <script data-source-attribution="shopify.dynamic_checkout.dynamic.init">
     var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function t(){window.Shopify.PaymentButton.init=function(){},[["https://jisora.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.iife.js",null,""],["https://jisora.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js","module",null],].forEach(function(t){var e=document.createElement("script");e.src=t[0],e.type=t[1],e.setAttribute("nomodule",t[2]),document.head.appendChild(e)})}};
   </script>
   <script integrity="sha256-HAs5a9TQVLlKuuHrahvWuke+s1UlxXohfHeoYv8G2D8="
     data-source-attribution="shopify.dynamic-checkout" defer="defer"
-    src="//jisora.com/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"
+    src="{{asset('public/assets/front-end/newjs/feature.js')}}"
     crossorigin="anonymous"></script>
 
 
@@ -886,13 +886,13 @@
     window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');
   </script>
 
-  <script src="//jisora.com/cdn/shop/t/29/assets/vendor-scripts-v11.js" defer="defer"></script>
-  <script src="//jisora.com/cdn/shop/t/29/assets/theme.js?v=19629914627915677641679922258" defer="defer"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  <script src="{{asset('public/assets/front-end/newjs/vendor.js')}}" defer="defer"></script>
+  <script src="{{asset('public/assets/front-end/newjs/theme.js')}}" defer="defer"></script>
+  <script src="{{asset('public/assets/front-end/newjs/jquery3.6.js')}}"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="{{asset('public/assets/front-end/newcss/flickity.min.css')}}">
 
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="{{asset('public/assets/front-end/newjs/flickity.pkgd.min.js')}}"></script>
   <style type='text/css'>
       .baCountry {
         width: 30px;
@@ -1865,7 +1865,6 @@
 
 
   <!-- Era of Ecom Engine Hook start -->
-  <link rel="dns-prefetch" href="//winads.eraofecom.org">
 
 
 
@@ -1884,7 +1883,7 @@
     (() => {const previewKey = 'docapp-free-gift-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-free-gift-inst-test')}));}})();
   </script>
   
-  <link href="//jisora.com/cdn/shop/t/29/assets/smk-sections.css?v=147244019065819453361679922258" rel="stylesheet"
+  <link href="{{asset('public/assets/front-end/newcss/smk-section.css')}}" rel="stylesheet"
     type="text/css" media="all" />
 
   <script src="//jisora.com/cdn/shop/t/29/assets/bss-file-configdata.js?v=19453381437224918031679922258"
@@ -1996,28 +1995,28 @@
   </div>
   <!-- END app app block -->
   <!-- BEGIN app block: shopify://apps/frequently-bought-together/blocks/app-embed-block/b1a8cbea-c844-4842-9529-7c62dbab1b1f -->
-  <script src="//cdn.codeblackbelt.com/scripts/frequently-bought-together/bootstrap.min.js?version=2023111315+0530"
+  <script src="{{asset('public/assets/front-end/newjs/bootstrap.min.js')}}"
     async></script>
   <!-- END app app block -->
   <script
-    src="https://cdn.shopify.com/extensions/4f59b47e-41a6-49f7-9d13-bc1cef45d13d/2.9.0/assets/mha-rn-popup-theme-ext.js"
+    src="{{asset('public/assets/front-end/newjs/popup-theme.js')}}"
     type="text/javascript" defer="defer"></script>
   <link
-    href="https://cdn.shopify.com/extensions/4f59b47e-41a6-49f7-9d13-bc1cef45d13d/2.9.0/assets/restock-master-theme-ext.css"
+    href="{{asset('public/assets/front-end/newcss/master-theme.css')}}"
     rel="stylesheet" type="text/css" media="all">
   <script
-    src="https://cdn.shopify.com/extensions/d0ecccad-7c62-4655-900f-ef8af7a544b5/whatmore-shoppable-videos-62/assets/whatmore.js"
+    src="{{asset('public/assets/front-end/newjs/whatmore.js')}}"
     type="text/javascript" defer="defer"></script>
   <link
     href="https://cdn.shopify.com/extensions/d0ecccad-7c62-4655-900f-ef8af7a544b5/whatmore-shoppable-videos-62/assets/whatmore.css"
     rel="stylesheet" type="text/css" media="all">
   <script
-    src="https://cdn.shopify.com/extensions/3203dc9d-c13e-4e24-b56d-389ff954922a/pify-form-builder-contact-form-15/assets/popup.js"
+    src="{{asset('public/assets/front-end/newjs/popup.js')}}"
     type="text/javascript" defer="defer"></script>
   <script
-    src="https://cdn.shopify.com/extensions/297ea48f-d444-4177-8225-5789f2d55fb4/attrac-2/assets/attrac-embed-bars.js"
+    src="{{asset('public/assets/front-end/newjs/embed-bars.js')}}"
     type="text/javascript" defer="defer"></script>
-  <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+  
   <script>
     (function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 52435222686,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());
   </script>
@@ -2251,7 +2250,7 @@
       window.BOOMR.themeId = 136894873825;
       window.BOOMR.renderRegion = "gcp-europe-west1";
       window.BOOMR.url =
-        "https://jisora.com/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+        "{{asset('public/assets/front-end/newjs/shopify-boomerang.js')}}";
       var where = document.currentScript || document.getElementsByTagName("script")[0];
       var parentNode = where.parentNode;
       var promoted = false;
@@ -2474,7 +2473,7 @@
   </tool-tip>
   <!-- Avada Size Chart Script -->
 
-  <script src="//jisora.com/cdn/shop/t/29/assets/size-chart-data.js?v=78150491546977935781679922258" defer='defer'>
+  <script src="{{asset('public/assets/front-end/newjs/size-chart-data.js')}}" defer='defer'>
   </script>
 
 
@@ -2535,7 +2534,7 @@
             window.restock.page_type = ""
             window.restock.partner_url = "https://restock-master.hulkapps.com";
         </script>
-        <link rel="stylesheet" type="text/css" href="https://restock-master.hulkapps.com/assets/restock-master.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('public/assets/front-end/newcss/restock-master.css')}}">
 
         <script type="text/javascript">
           if(true === true){
@@ -4123,7 +4122,7 @@
 
 
 
-  <script src="//jisora.com/cdn/shop/t/29/assets/smk-sections.js?v=124175246122752485611679922258" defer="defer">
+  <script src="{{asset('public/assets/front-end/newjs/smk-sections.js')}}" defer="defer">
   </script>
 
 
@@ -4156,10 +4155,10 @@
 
 
   <input id="rzpKey" type="hidden" name="rzpKey" value="rzp_live_SeVF4kApMclxt4">
-
+{{-- 
   <script src="https://cdn.razorpay.com/static/shopify/analytics.js"></script>
   <script src="https://cdn.razorpay.com/static/shopify/magic-rzp.js" data-email="" data-phonenumber=""></script>
-
+ --}}
 
 
   <div id="rzp-spinner-backdrop">
@@ -4237,7 +4236,7 @@
 
 
   <script
-    src="https://app.kiwisizing.com/web/js/dist/kiwiSizing/plugin/SizingPlugin.prod.js?v=308&shop=jisora-india.myshopify.com">
+    src="{{asset('public/assets/front-end/newjs/SizingPlugin.prod.js')}}">
   </script>
   <script>
       jQuery(document).ready(function ($) {

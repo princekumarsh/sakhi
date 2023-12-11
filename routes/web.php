@@ -152,6 +152,7 @@ Route::group(['namespace' => 'Web','middleware'=>['maintenance_mode']], function
     Route::get('/login1', 'WebController@login1')->name('login1');
     Route::get('/register1', 'WebController@register1')->name('register1');
     Route::get('/details', 'WebController@details')->name('details');
+    Route::get('/checkout', 'WebController@checkout')->name('checkout');
 
 
 
