@@ -153,6 +153,14 @@ Route::group(['namespace' => 'Web','middleware'=>['maintenance_mode']], function
     Route::get('/register1', 'WebController@register1')->name('register1');
     Route::get('/details', 'WebController@details')->name('details');
     Route::get('/checkout', 'WebController@checkout')->name('checkout');
+    Route::get('/my-orders', 'WebController@my_orders')->name('my_orders');
+    Route::get('/loyality-points', 'WebController@loyality_points')->name('loyality_points');
+    Route::get('/track-order', 'WebController@track_order')->name('track_order');
+    Route::get('/wishlist1', 'WebController@wishlist1')->name('wishlist1');
+    Route::get('/account-details', 'WebController@account_details')->name('account_details');
+    Route::get('/addresses', 'WebController@addresses')->name('addresses');
+    Route::get('/support-ticket', 'WebController@support_ticket')->name('support_ticket');
+    Route::get('/change-password', 'WebController@change_password')->name('change_password');
 
 
 

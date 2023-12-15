@@ -57,17 +57,17 @@
                     </style>
                     <div class="hero__image-wrapper hero__image-wrapper--no-overlay"><img
                         class="hero__image hero__image--7f14a54f-39a3-47dd-a040-172ffb084162 lazyload small--hide"
-                        src="//jisora.com/cdn/shop/files/jisora_Banner_2ded9682-ab33-404d-a4f6-97a455a61576_300x.jpg?v=1695707367"
+                        src="{{asset('public/assets/front-end/img/banner1.webp')}}"
                         data-src="//jisora.com/cdn/shop/files/jisora_Banner_2ded9682-ab33-404d-a4f6-97a455a61576_{width}x.jpg?v=1695707367"
                         data-aspectratio="2.142857142857143" data-sizes="auto" alt=""
                         style="object-position: center center"><img
                         class="hero__image hero__image--7f14a54f-39a3-47dd-a040-172ffb084162 lazyload medium-up--hide"
-                        src="//jisora.com/cdn/shop/files/jisora_Banner_Mobile_b6b2f900-7f58-43e3-83d7-14a5417c740b_300x.jpg?v=1695707368"
+                        src="{{asset('public/assets/front-end/img/banner1m.webp')}}"
                         data-src="//jisora.com/cdn/shop/files/jisora_Banner_Mobile_b6b2f900-7f58-43e3-83d7-14a5417c740b_{width}x.jpg?v=1695707368"
                         data-aspectratio="0.5633802816901409" data-sizes="auto" alt=""
                         style="object-position: center center"><noscript>
                         <img class="hero__image hero__image--7f14a54f-39a3-47dd-a040-172ffb084162"
-                          src="//jisora.com/cdn/shop/files/jisora_Banner_2ded9682-ab33-404d-a4f6-97a455a61576_1400x.jpg?v=1695707367"
+                          src="{{asset('public/assets/front-end/img/banner1.webp')}}"
                           alt="">
                       </noscript></div><a href="/collections/new-arrivals" class="hero__slide-link"
                       aria-hidden="true"></a>
@@ -108,17 +108,17 @@
                     </style>
                     <div class="hero__image-wrapper hero__image-wrapper--no-overlay"><img
                         class="hero__image hero__image--414527f6-fb35-437e-b6f0-aad87a1a640e lazyload small--hide"
-                        src="//jisora.com/cdn/shop/files/jisora_Banner_2_2722a02d-d2a7-4c32-95f4-7f3be73c9373_300x.jpg?v=1695707367"
-                        data-src="//jisora.com/cdn/shop/files/jisora_Banner_2_2722a02d-d2a7-4c32-95f4-7f3be73c9373_{width}x.jpg?v=1695707367"
+                        src="{{asset('public/assets/front-end/img/banner1.webp')}}"
+                        data-src=""
                         data-aspectratio="2.142857142857143" data-sizes="auto" alt=""
                         style="object-position: top center"><img
                         class="hero__image hero__image--414527f6-fb35-437e-b6f0-aad87a1a640e lazyload medium-up--hide"
-                        src="//jisora.com/cdn/shop/files/jisora_Banner_2_Mobile_300x.jpg?v=1695707367"
-                        data-src="//jisora.com/cdn/shop/files/jisora_Banner_2_Mobile_{width}x.jpg?v=1695707367"
+                        src="{{asset('public/assets/front-end/img/banner1m.webp')}}"
+                        data-src=""
                         data-aspectratio="0.5633802816901409" data-sizes="auto" alt=""
                         style="object-position: top center"><noscript>
                         <img class="hero__image hero__image--414527f6-fb35-437e-b6f0-aad87a1a640e"
-                          src="//jisora.com/cdn/shop/files/jisora_Banner_2_2722a02d-d2a7-4c32-95f4-7f3be73c9373_1400x.jpg?v=1695707367"
+                          src="{{asset('public/assets/front-end/img/banner2.webp')}}"
                           alt="">
                       </noscript></div><a href="/collections/lounge-dresses" class="hero__slide-link"
                       aria-hidden="true"></a>
@@ -152,17 +152,17 @@
                     </style>
                     <div class="hero__image-wrapper hero__image-wrapper--no-overlay"><img
                         class="hero__image hero__image--8f309a14-08a9-4a7d-8451-e10adb51a564 lazyload small--hide"
-                        src="//jisora.com/cdn/shop/files/Jisora_Co-ord_set_banner_1_300x.jpg?v=1688715608"
+                        src="{{asset('public/assets/front-end/img/banner3.webp')}}"
                         data-src="//jisora.com/cdn/shop/files/Jisora_Co-ord_set_banner_1_{width}x.jpg?v=1688715608"
                         data-aspectratio="2.142857142857143" data-sizes="auto" alt=""
                         style="object-position: center center"><img
                         class="hero__image hero__image--8f309a14-08a9-4a7d-8451-e10adb51a564 lazyload medium-up--hide"
-                        src="//jisora.com/cdn/shop/files/Jisora_Co-ord_set_banner_Mobile_300x.jpg?v=1688715608"
+                        src="{{asset('public/assets/front-end/img/banner3m.webp')}}"
                         data-src="//jisora.com/cdn/shop/files/Jisora_Co-ord_set_banner_Mobile_{width}x.jpg?v=1688715608"
                         data-aspectratio="0.5633802816901409" data-sizes="auto" alt=""
                         style="object-position: center center"><noscript>
                         <img class="hero__image hero__image--8f309a14-08a9-4a7d-8451-e10adb51a564"
-                          src="//jisora.com/cdn/shop/files/Jisora_Co-ord_set_banner_1_1400x.jpg?v=1688715608" alt="">
+                          src="{{asset('public/assets/front-end/img/banner3.webp')}}" alt="">
                       </noscript></div><a href="/collections/co-ord-sets" class="hero__slide-link"
                       aria-hidden="true"></a>
                     <div class="hero__text-wrap">
@@ -1215,10 +1215,10 @@
             <div class="hero__media hero__media--template--16763831255265__164613291751bb55fc">
               <div class="hero__media-container"><video id="Mp4Video-template--16763831255265__164613291751bb55fc"
                   class="video-div video-div-desktop" data-type="mp4"
-                  src="https://cdn.shopify.com/videos/c/o/v/82698c751d49437eb520afc9140af6f6.mp4" loop muted playsinline
+                  src="{{asset('public/assets/front-end/img/video1.mp4')}}" loop muted playsinline
                   autoplay></video>
                 <video id="Mp4Video-template--16763831255265__164613291751bb55fc" class="video-div video-div-mobile"
-                  data-type="mp4" src="https://cdn.shopify.com/videos/c/o/v/7e3185c8d4d44b5598168a82b97c23b8.mp4" loop
+                  data-type="mp4" src="{{asset('public/assets/front-end/img/video1.mp4')}}" loop
                   muted playsinline autoplay></video>
               </div>
             </div>
@@ -2141,16 +2141,16 @@
           <div class="page-width" data-aos="logo__animation">
             <div class="logo-bar logo-bar--template--16763831255265__16481094536eb62629">
               <div class="logo-bar__item"><img class="logo-bar__image lazyload"
-                  data-src="//jisora.com/cdn/shop/files/Jisora-Icons-mobile_handcrafted_{width}x.gif?v=1649235298"
+                  data-src="{{asset('public/assets/front-end/img/gif1.webp')}}"
                   data-widths="[360, 360, 540, 720]" data-aspectratio="1.0" data-sizes="auto" alt=""></div>
               <div class="logo-bar__item"><img class="logo-bar__image lazyload"
-                  data-src="//jisora.com/cdn/shop/files/Jisora-Icons-mobile_pocket-friendly_{width}x.gif?v=1649235336"
+                  data-src="{{asset('public/assets/front-end/img/gif2.webp')}}"
                   data-widths="[360, 360, 540, 720]" data-aspectratio="1.0" data-sizes="auto" alt=""></div>
               <div class="logo-bar__item"><img class="logo-bar__image lazyload"
-                  data-src="//jisora.com/cdn/shop/files/Jisora-Icons-mobile_ethical_{width}x.gif?v=1649235371"
+                  data-src="{{asset('public/assets/front-end/img/GIF3.webp')}}"
                   data-widths="[360, 360, 540, 720]" data-aspectratio="1.0" data-sizes="auto" alt=""></div>
               <div class="logo-bar__item"><img class="logo-bar__image lazyload"
-                  data-src="//jisora.com/cdn/shop/files/Jisora-Icons-mobile-sustainable_{width}x.gif?v=1649235400"
+                  data-src="{{asset('public/assets/front-end/img/GIF4.webp')}}"
                   data-widths="[360, 360, 540, 720]" data-aspectratio="1.0" data-sizes="auto" alt=""></div>
             </div>
           </div>

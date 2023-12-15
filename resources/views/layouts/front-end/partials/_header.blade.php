@@ -17,12 +17,12 @@
         </div>
         <div class="drawer__scrollable">
           <ul class="mobile-nav" role="navigation" aria-label="Primary">
-            <li class="mobile-nav__item appear-animation appear-delay-2"><a href="/"
+            <li class="mobile-nav__item appear-animation appear-delay-2"><a href="{{route('home')}}"
                 class="mobile-nav__link mobile-nav__link--top-level" data-active="true">Home</a></li>
             <li class="mobile-nav__item appear-animation appear-delay-3"><a href="{{route('new_arrival')}}"
                 class="mobile-nav__link mobile-nav__link--top-level">New Arrivals</a></li>
             <li class="mobile-nav__item appear-animation appear-delay-4">
-              <div class="mobile-nav__has-sublist"><a href="/collections/lounge-wear"
+              <div class="mobile-nav__has-sublist"><a href="{{route('new_arrival')}}"
                   class="mobile-nav__link mobile-nav__link--top-level" id="Label-collections-lounge-wear3">
                   Lounge Wear
                 </a>
@@ -45,7 +45,7 @@
                 <div class="collapsible-content__inner">
                   <ul class="mobile-nav__sublist">
                     <li class="mobile-nav__item">
-                      <div class="mobile-nav__child-item"><a href="/collections/kaftan" class="mobile-nav__link"
+                      <div class="mobile-nav__child-item"><a href="{{route('new_arrival')}}" class="mobile-nav__link"
                           id="Sublabel-collections-kaftan1">
                           Kaftan
                         </a><button type="button"
@@ -288,7 +288,7 @@
                 </div>
               </div>
             </li>
-            <li class="mobile-nav__item appear-animation appear-delay-6"><a href="/collections/co-ord-sets"
+            <li class="mobile-nav__item appear-animation appear-delay-6"><a href="{{route('new_arrival')}}"
                 class="mobile-nav__link mobile-nav__link--top-level">Co-ord Sets</a></li>
             <li class="mobile-nav__item appear-animation appear-delay-7"><a href="/collections/luxe"
                 class="mobile-nav__link mobile-nav__link--top-level">Luxe</a></li>
@@ -432,7 +432,7 @@
     </style>
     <div data-section-id="header" data-section-type="header">
         <div class="header-sticky-wrapper">
-          <div id="HeaderWrapper" class="header-wrapper header-wrapper--sticky is-light">
+          <div id="HeaderWrapper" class="header-wrapper header-wrapper--sticky {{ Request::is('/')?'is-light':'' }}">
             <div class="toolbar toolbar--transparent small--hide">
               <div class="page-width">
                 <div class="toolbar__content">
@@ -443,7 +443,7 @@
     
               </div>
             </div>
-            <header id="SiteHeader" class="site-header" data-sticky="true" data-overlay="true">
+            <header id="SiteHeader" class="site-header {{ Request::is('/')?'':'site-header--stuck site-header--opening' }}" data-sticky="true" data-overlay="true">
               <div class="page-width">
                 <div class="header-layout header-layout--center" data-logo-align="center">
                   <div class="header-item header-item--left header-item--navigation">
@@ -508,34 +508,34 @@
     
                       @media only screen and (min-width: 769px) {
                         .site-header__logo a {
-                          width: 140px;
+                          width: 200px;
                         }
     
                         .is-light .site-header__logo .logo--inverted {
-                          width: 140px;
+                          width: 240px;
                         }
                       }
                     </style>
                     <h1 class="site-header__logo" itemscope itemtype="http://schema.org/Organization">
                       <span class="visually-hidden">JISORA</span>
-                      <a href="/" itemprop="url" class="site-header__logo-link logo--has-inverted"
+                      <a href="{{route('home')}}" itemprop="url" class="site-header__logo-link logo--has-inverted"
                         style="padding-top: 28.333333333333336%">
                         <img class="small--hide"
-                          src="//jisora.com/cdn/shop/files/jisora-logo_180x_98ef8eae-7a4c-484c-b842-cf3c18a7c1a1_140x.png?v=1647944899"
-                          srcset="//jisora.com/cdn/shop/files/jisora-logo_180x_98ef8eae-7a4c-484c-b842-cf3c18a7c1a1_140x.png?v=1647944899 1x, //jisora.com/cdn/shop/files/jisora-logo_180x_98ef8eae-7a4c-484c-b842-cf3c18a7c1a1_140x@2x.png?v=1647944899 2x"
+                          src="{{asset('public/assets/front-end/img/logo.png')}}"
+                          srcset=""
                           alt="JISORA" itemprop="logo">
                         <img class="medium-up--hide"
-                          src="//jisora.com/cdn/shop/files/jisora-logo_180x_98ef8eae-7a4c-484c-b842-cf3c18a7c1a1_110x.png?v=1647944899"
-                          srcset="//jisora.com/cdn/shop/files/jisora-logo_180x_98ef8eae-7a4c-484c-b842-cf3c18a7c1a1_110x.png?v=1647944899 1x, //jisora.com/cdn/shop/files/jisora-logo_180x_98ef8eae-7a4c-484c-b842-cf3c18a7c1a1_110x@2x.png?v=1647944899 2x"
+                          src="{{asset('public/assets/front-end/img/logo.png')}}"
+                          srcset=""
                           alt="JISORA">
-                      </a><a href="/" itemprop="url" class="site-header__logo-link logo--inverted"
+                      </a><a href="{{route('home')}}" itemprop="url" class="site-header__logo-link logo--inverted"
                         style="padding-top: 28.333333333333336%">
-                        <img class="small--hide" src="//jisora.com/cdn/shop/files/jisora-logo_light_140x.png?v=1647944909"
-                          srcset="//jisora.com/cdn/shop/files/jisora-logo_light_140x.png?v=1647944909 1x, //jisora.com/cdn/shop/files/jisora-logo_light_140x@2x.png?v=1647944909 2x"
+                        <img class="small--hide" src="{{asset('public/assets/front-end/img/logo.png')}}"
+                          srcset=""
                           alt="JISORA" itemprop="logo">
                         <img class="medium-up--hide"
-                          src="//jisora.com/cdn/shop/files/jisora-logo_light_110x.png?v=1647944909"
-                          srcset="//jisora.com/cdn/shop/files/jisora-logo_light_110x.png?v=1647944909 1x, //jisora.com/cdn/shop/files/jisora-logo_light_110x@2x.png?v=1647944909 2x"
+                          src="{{asset('public/assets/front-end/img/logo.png')}}"
+                          srcset=""
                           alt="JISORA">
                       </a>
                     </h1>
@@ -578,7 +578,7 @@
                   <ul class="site-nav site-navigation small--hide" role="navigation" aria-label="Primary">
                     <li class="site-nav__item site-nav__expanded-item">
     
-                      <a href="/" class="site-nav__link site-nav__link--underline">
+                      <a href="{{route('home')}}" class="site-nav__link site-nav__link--underline">
                         Home
                       </a>
                     </li>
@@ -591,7 +591,7 @@
                     <li class="site-nav__item site-nav__expanded-item site-nav--has-dropdown site-nav--is-megamenu"
                       aria-haspopup="true">
     
-                      <a href="/collections/lounge-wear"
+                      <a href="{{route('new_arrival')}}"
                         class="site-nav__link site-nav__link--underline site-nav__link--has-dropdown">
                         Lounge Wear
                       </a>
@@ -728,7 +728,7 @@
                     <li class="site-nav__item site-nav__expanded-item site-nav--has-dropdown site-nav--is-megamenu"
                       aria-haspopup="true">
     
-                      <a href="/collections/western-wear"
+                      <a href="{{route('new_arrival')}}"
                         class="site-nav__link site-nav__link--underline site-nav__link--has-dropdown">
                         Night Wear
                       </a>
@@ -806,7 +806,7 @@
                     </li>
                     <li class="site-nav__item site-nav__expanded-item">
     
-                      <a href="/collections/co-ord-sets" class="site-nav__link site-nav__link--underline">
+                      <a href="{{route('new_arrival')}}" class="site-nav__link site-nav__link--underline">
                         Co-ord Sets
                       </a>
                     </li>

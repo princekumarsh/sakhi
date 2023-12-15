@@ -1183,4 +1183,28 @@ class WebController extends Controller
     public function checkout(){
         return view('web-views2.checkout');
     }
+    public function my_orders(){
+        return view('web-views2.my-orders');
+    }
+    public function loyality_points(){
+        return view('web-views2.loyality-points');
+    }
+    public function track_order(){
+        return view('web-views2.track-order');
+    }
+    public function wishlist1(){
+        return view('web-views2.wishlist1');
+    }
+    public function account_details(){
+        return view('web-views2.account-details');
+    }
+    public function addresses(){
+        return view('web-views2.addresses');
+    }
+    public function support_ticket(){
+        return view('web-views2.support-ticket');
+    }
+    public function change_password(){
+        return view('web-views2.change-password');
+    }
 }
